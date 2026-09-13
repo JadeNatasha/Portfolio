@@ -1,1 +1,1 @@
-import{a}from"/myst_assets_folder/_shared/chunk-CY26WA25.js";import"/myst_assets_folder/_shared/chunk-OZE3FFNP.js";export default a();
+import{a}from"C:/Program Files/Git/Portfolio//build/_shared/chunk-CY26WA25.js";import"C:/Program Files/Git/Portfolio//build/_shared/chunk-OZE3FFNP.js";export default a();
