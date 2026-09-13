@@ -7,7 +7,8 @@ project:
     - file: index.md
     - file: DataExtractions.ipynb
 site:
+  template: book-theme
   options:
     folders: true
-  template: book-theme
- 
+    base_url: /Portfolio
+
