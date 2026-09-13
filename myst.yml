@@ -8,7 +8,5 @@ project:
     - file: DataExtractions.ipynb
 site:
   template: book-theme
-  options:
-    folders: true
-    base_url: /Portfolio
+
 
