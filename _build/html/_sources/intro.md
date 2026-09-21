@@ -1,4 +1,4 @@
-<h1 style="color:#2E86AB;">Hi, I'm Jade! 👋</h1>
+# 👋 Hi, I'm Jadee!
 
 **4th year - Data Science student** at the University of Science and Technology of Southern Philippines
 

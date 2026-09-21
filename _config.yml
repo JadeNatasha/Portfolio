@@ -3,7 +3,7 @@
 
 title: My sample book
 author: The Jupyter Book Community
-logo: me pic.jpg
+logo: me.jpg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -26,3 +26,5 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_css:
+    - custom.css

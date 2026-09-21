@@ -3,5 +3,11 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: Feedforward
+parts:
+  - caption: Tasks
+    chapters:
+      - file: projects/LaboratoryTask2
+      - file: projects/LaboratoryTask3
+      - file: projects/LaboratoryTask4
+      - file: projects/LaboratoryTask5
+      - file: projects/LaboratoryTask6
