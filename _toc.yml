@@ -11,3 +11,7 @@ parts:
       - file: projects/LaboratoryTask4
       - file: projects/LaboratoryTask5
       - file: projects/LaboratoryTask6
+  - caption: Activity
+    chapters:
+      - file: projects/LaboratoryActivity1
+      - file: projects/dataset
