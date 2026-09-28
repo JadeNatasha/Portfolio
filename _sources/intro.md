@@ -14,5 +14,5 @@ I am Jade Natasha Ragot, and this portfolio is a visual journey showcasing the m
 `Data Entry` `Data Analytics` `Basic Prototyping` `Basic Designing` `Python` `Pandas`
 
 ## Let's Connect
-- GitHub: [https://github.com/JadeNatasha]
-- Email: [ragot.jade026@gmail.com]
+- GitHub: https://github.com/JadeNatasha
+- Email: ragot.jade026@gmail.com
