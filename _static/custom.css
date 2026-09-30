@@ -1,0 +1,136 @@
+/* ============================
+   COLOR PALETTE
+   ============================ */
+:root {
+  --pst-color-background: #fddfe3;
+  --pink-bg: #fddfe3;
+  --pink-light: #fff5f7;
+  --pink-header: #f7c6d0;
+  --pink-border: #d88a9a;
+  --text-dark: #3a2a2f;
+  --heading-rose: #7a2e42;
+}
+
+/* ============================
+   PAGE BACKGROUND
+   ============================ */
+body,
+.bd-container,
+.bd-page-width,
+.bd-sidebar-primary,
+.bd-sidebar-secondary,
+.bd-header-article,
+.bd-header {
+  background-color: var(--pink-bg) !important;
+}
+
+/* ============================
+   TEXT COLORS
+   ============================ */
+body,
+.bd-content,
+.bd-sidebar-primary,
+.bd-sidebar-secondary,
+p, li, span, a {
+  color: var(--text-dark) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-rose) !important;
+}
+
+/* ============================
+   CODE CELLS (input + output)
+   ============================ */
+div.cell,
+div.cell_input,
+div.cell_output,
+.highlight,
+.highlight pre,
+.jp-Cell,
+.output {
+  background-color: var(--pink-light) !important;
+}
+
+.highlight pre,
+.highlight code,
+div.cell_input pre,
+div.cell_output pre {
+  color: var(--text-dark) !important;
+}
+
+/* Syntax highlighting accents */
+.highlight .k, .highlight .kn, .highlight .nb {
+  color: var(--heading-rose) !important; /* keywords */
+}
+.highlight .s1, .highlight .s2 {
+  color: #a05a3d !important; /* strings */
+}
+.highlight .c1 {
+  color: #999 !important; /* comments */
+}
+
+/* ============================
+   TABLES
+   ============================ */
+table,
+table th,
+table td {
+  background-color: var(--pink-light) !important;
+  color: var(--text-dark) !important;
+  border-color: var(--pink-border) !important;
+}
+
+table thead th {
+  background-color: var(--pink-header) !important;
+  color: var(--heading-rose) !important;
+}
+
+/* ============================
+   BLOCKQUOTES
+   ============================ */
+blockquote,
+blockquote p,
+blockquote strong,
+blockquote em {
+  background-color: var(--pink-light) !important;
+  color: var(--text-dark) !important;
+}
+blockquote {
+  border-left: 4px solid var(--pink-border) !important;
+}
+
+/* ============================
+   INLINE CODE / SKILL TAGS
+   ============================ */
+.docutils.literal {
+  background-color: #ffffff !important;
+  color: var(--heading-rose) !important;
+}
+
+/* ============================
+   HIDE DUPLICATE HEADER SEARCH BARS
+   ============================ */
+.navbar-persistent--container,
+.navbar-persistent--mobile {
+  display: none !important;
+}
+
+/* ============================
+   HIDE THE LIGHT/DARK MODE TOGGLE
+   ============================ */
+button.theme-switch-button,
+.theme-switch-button,
+.navbar-icon-links .theme-switch-button {
+  display: none !important;
+}
+
+/* ============================
+   CLICKABLE
+   ============================ */
+p.caption {
+  user-select: none;
+}
+p.caption:hover {
+  opacity: 0.7;
+}
