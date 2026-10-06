@@ -12,6 +12,26 @@
 }
 
 /* ============================
+   FORCE LIGHT & DARK MODE TO USE THE SAME PINK PALETTE
+   ============================ */
+html[data-theme="light"],
+html[data-theme="dark"] {
+  --pst-color-background: #fddfe3;
+  --pst-color-on-background: #fddfe3;
+  --pst-color-surface: #fff5f7;
+  --pst-color-on-surface: #3a2a2f;
+  --pst-color-text-base: #3a2a2f;
+  --pst-color-link: #7a2e42;
+  --pst-color-link-hover: #d88a9a;
+  --pst-color-border: #d88a9a;
+  --pst-color-inline-code: #7a2e42;
+  --pst-color-inline-code-links: #7a2e42;
+  --pst-color-target: #fff5f7;
+  --pst-color-table: #3a2a2f;
+  --pst-color-table-row-hover-bg: #fbd8e0;
+}
+
+/* ============================
    PAGE BACKGROUND
    ============================ */
 body,
