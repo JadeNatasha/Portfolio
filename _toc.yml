@@ -17,4 +17,4 @@ parts:
       - file: projects/dataset
   - caption: Blog Posts
     chapters:
-      - file: projects/Blog_post
+      - file: projects/BlogPost
