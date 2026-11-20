@@ -14,8 +14,6 @@ parts:
   - caption: Activity
     chapters:
       - file: projects/LaboratoryActivity1
-      - file: projects/dataset
   - caption: Blog Posts
     chapters:
       - file: projects/TDK_Blog1
-      
