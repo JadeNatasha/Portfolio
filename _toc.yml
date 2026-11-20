@@ -15,3 +15,6 @@ parts:
     chapters:
       - file: projects/LaboratoryActivity1
       - file: projects/dataset
+  - caption: Blog Posts
+    chapters:
+      - file: projects/Blog_post
