@@ -17,4 +17,5 @@ parts:
       - file: projects/dataset
   - caption: Blog Posts
     chapters:
-      - file: projects/BlogPost
+      - file: projects/TDK_Blog1
+      
